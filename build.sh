@@ -2,4 +2,4 @@
 
 cargo build --manifest-path ./rhs/Cargo.toml --release
 
-cd hsr && nix-shell --run 'cabal configure && cabal build'
+cd hsr && cabal configure && cabal build
