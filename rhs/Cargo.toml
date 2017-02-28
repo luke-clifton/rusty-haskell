@@ -1,0 +1,10 @@
+[package]
+name = "rhs"
+version = "0.1.0"
+authors = ["Luke Clifton <ltclifton@gmail.com>"]
+
+[dependencies]
+
+[lib]
+name = "rhs"
+crate-type = ["staticlib"]
